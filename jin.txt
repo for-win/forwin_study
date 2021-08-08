@@ -1,0 +1,13 @@
+add -> 기존 프로젝트에서 더한다
+무엇? 우리 프로젝트를 변경한 내용
+어디에? 우리 컴퓨터에 저장
+commit -> linux 컴퓨터(stage)에 저장
+push -> linux => git repository 전송
+
+branch-가지:
+git pull origin master
+git push origin master
+
+협업:
+push master: 알려줘야해
+각자의 저장환경 만들어줘야해: branch 명 설정
