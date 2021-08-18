@@ -1,0 +1,43 @@
+header {
+    height: 100px;
+    border-bottom: 1px solid black;
+    /* position: fixed; */
+}
+
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    margin-right: 10%;
+}
+
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 33.3px;
+}
+
+.menu{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 35%;
+    top: 5%;
+    right: 30%;
+    margin-right: -10%;
+}
+
+.login{
+    position: absolute;
+    width: 20%;
+    height: 2rem;
+    background-color: cadetblue;
+    border-radius: 5px;
+    top: 5%;
+    right: 0%;
+    margin-right: -150px;
+    /*  */
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
