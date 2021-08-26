@@ -1,0 +1,31 @@
+add -> 기존 프로젝트에서 더한다
+무엇? 우리 프로젝트를 변경한 내용
+어디에? 우리 컴퓨터에 저장
+commit -> linux 컴퓨터(stage)에 저장
+push -> linux => git repository 전송
+
+branch-가지:
+
+# git 저장소에서 master의 저장 내역을 가져오는 것
+git pull origin master
+# git 저장소에 내가 master branch에 저장하는 것
+git push origin master
+
+# 무조건 협업시에는 아래와 같이 git 명령어 쳐주기
+협업:
+push master: 알려줘야해
+각자의 저장환경 만들어줘야해: branch 명 설정
+
+1. 파일 작업 전
+> git pull origin master
+2. 작업 후
+> git status  # 내가 수정한 파일의 목록을 빨간색으로 보여줌
+> git add .  # .은 at this directory root
+> git commit -m "message"  # message는 필수 사항 안 적으면 에러 뜸. 왜냐 git에서 우리의 commit 사항에 대한 정보를 받지 못하면, 나중에 얘의 변경 내용을 가져오는게 힘들어
+(안전빵)> git branch  # 현재 branch가 master면 git checkout 브랜치 명 ex) 재민: testLJM
+> git push origin 브랜치 명 
+3. (jin 권한)
+> git checkout master
+> git merge 각자의 브랜치 명
+> git push origin master
+끗
