@@ -5,6 +5,7 @@ commit -> linux 컴퓨터(stage)에 저장
 push -> linux => git repository 전송
 
 branch-가지:
+<<<<<<< HEAD
 
 # git 저장소에서 master의 저장 내역을 가져오는 것
 git pull origin master
@@ -29,3 +30,11 @@ push master: 알려줘야해
 > git merge 각자의 브랜치 명
 > git push origin master
 끗
+=======
+git pull origin master
+git push origin master
+
+협업:
+push master: 알려줘야해
+각자의 저장환경 만들어줘야해: branch 명 설정
+>>>>>>> e8587713fe7c41d341b273ccfab70bae8513072b
