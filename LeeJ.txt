@@ -41,3 +41,5 @@ I AM WHATISCODIN
 
 > git pull origin (branch1)
   마찬가지로 원격저장소(깃헙 서버)에 있는 branch1의 가장 최근 버젼을 지역저장소(내 컴퓨터)에 불러와서 작업할 수 있게 함.
+
+what is fetch?
